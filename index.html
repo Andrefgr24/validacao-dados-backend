@@ -17,7 +17,6 @@
             Nome do Pai: <input type="text" name="nomePai" required><br><br>
             Telefone: (DDD) <input type="text" name="ddd" maxlength="2" required> 
             Tel: <input type="text" name="telefone" required> 
-            Ramal: <input type="text" name="ramal"><br><br>
             E-Mail: <input type="email" name="email" required><br><br>
         </fieldset>
         <fieldset>
@@ -27,16 +26,20 @@
                 <option value="pre-escolar">Pré-escolar</option>
                 <option value="fundamental">Fundamental</option>
                 <option value="medio">Ensino Médio</option>
+                <option value="superior">Superior</option>
             </select><br><br>
             Turno: 
-            <input type="radio" name="turno" value="manha" required>Manhã 
-            <input type="radio" name="turno" value="tarde" required>Tarde<br><br>
+            <input type="radio" name="turno" value="manha" required>Manhã
+            <input type="radio" name="turno" value="tarde" required>Tarde 
+            <input type="radio" name="turno" value="Noite" required>Noite<br><br>
             Atividades Extracurriculares:<br>
             <input type="checkbox" name="atividades" value="informatica">Informática
             <input type="checkbox" name="atividades" value="musica">Música
             <input type="checkbox" name="atividades" value="ballet">Balé
             <input type="checkbox" name="atividades" value="pintura">Pintura
             <input type="checkbox" name="atividades" value="judo">Judô
+            <input type="checkbox" name="atividades" value="projetoDeExtecao">Projeto De Extensão
+            <input type="checkbox" name="atividades" value="estagio">Estágio
             <input type="checkbox" name="atividades" value="futebol">Futebol<br><br>
         </fieldset>
         <input type="submit" value="Enviar Formulário">
